@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.appointment_book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid mediumseagreen;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #333;
+    background-color: #f4f4f4;
+    gap: 15px;
+    font-size: 18px;
+    color: black;
+}
+
+.appoint{
+    font-size: 30px;
+    font-weight: bold;
+    color: mediumseagreen;
+    margin-bottom: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align:justify;
+}
+
+.terms label {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    gap: 4px;
+}
+
+
+.button-style  {
+    display: flex; /* Arrange buttons side by side */
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Align buttons vertically */
+    gap: 20px; /* Add spacing between buttons */
+    width: 100%; /* Make container stretch across the parent */
+}
+
+.button-style input[type="submit"] {
+    background-color: mediumseagreen;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1;
+    width: auto; /* Make button size dynamic */
+}
+
+.button-style input[type="submit"]:hover {
+    background-color: seagreen;
+}

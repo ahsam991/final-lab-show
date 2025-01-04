@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.legal-agree-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid mediumseagreen;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #333;
+    background-color: #f4f4f4;
+    gap: 15px;
+    font-size: 14px;
+    color: black;
+}
+
+.legal-agree{
+    font-size: 30px;
+    font-weight: bold;
+    color: mediumseagreen;
+    margin-bottom: 5px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align:justify;
+}
+
+.terms label {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    gap: 4px;
+}
+
+.terms pre {
+    padding: 8px;
+    font-size: 5px;
+    border: 1px solid mediumseagreen;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    overflow: auto;
+    max-height: 200px;
+    text-align: left;
+    justify-items: left;
+}
+
+.terms-buttons {
+    display: flex; /* Arrange buttons side by side */
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Align buttons vertically */
+    gap: 20px; /* Add spacing between buttons */
+    width: 100%; /* Make container stretch across the parent */
+}
+
+.terms-buttons input[type="submit"] {
+    background-color: mediumseagreen;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1;
+    width: auto; /* Make button size dynamic */
+}
+
+.terms-buttons input[type="submit"]:hover {
+    background-color: seagreen;
+}
+
+
+.policy {
+    margin-top: 5px;
+    font-size: 14px;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center;
+}
+
+.policy a {
+    color: mediumseagreen;
+    text-decoration: none;
+}
